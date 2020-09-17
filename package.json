@@ -1,6 +1,6 @@
 {
   "name": "tab-manager-by-aspen",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A better tab manager for your browser brought to you by the team at Aspen https://www.aspen.cloud",
   "private": true,
   "scripts": {
