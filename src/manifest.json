@@ -1,0 +1,31 @@
+{
+  "name": "Tab Manager by Aspen",
+  "background": {
+    "scripts": ["background.bundle.js"]
+  },
+  "web_accessible_resources": ["welcome.html"],
+  "permissions": ["tabs"],
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon-16.png",
+    "default_title": "Tab Manager",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "MacCtrl+Shift+A"
+      }
+    }
+  }
+}
